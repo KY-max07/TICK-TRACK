@@ -1,11 +1,13 @@
 import React from "react";
+import logo from '../assets/tt.svg';
+
 
 const LoadingSpinner = () => {
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-black">
       <div className="text-center">
         <img
-          src="/src/assets/tt.svg"
+          src={logo}
           alt="Tick-Track Logo"
           className="h-20 animate-pulse mx-auto"
         />

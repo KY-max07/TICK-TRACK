@@ -1,17 +1,19 @@
 import React from "react";
 import { SignInButton } from "@clerk/clerk-react";
 import { Copy } from "lucide-react";
-// import SpotlightCard from "../../components/SpotlightCard";
+import web from '../../assets/tick-track-web.png';
+import tt from '../../assets/tt.svg';
+import back from '../../assets/tick-track.jpg';
 
 
 const LandingPage = () => {
   return (
     <div >
-      <div className=" w-screen h-screen  relative bg-[url('src/assets/tick-track.jpg')] bg-cover bg-center text-neutral-300">
+      <div className={` w-screen h-screen  relative  bg-cover bg-center text-neutral-300`} style={{ backgroundImage: `url(${back})` }}>
         <div className="w-full h-full bg-black/50 backdrop-blur-xl">
           <nav className="p-4 px-6 md:px-10 flex items-center justify-between">
             <img
-              src="src\assets\tt.svg"
+              src={tt}
               alt="Tick-Track"
               className="h-4 md:h-7 cursor-pointer"
             />
@@ -33,7 +35,7 @@ const LandingPage = () => {
               </h1>
             </div>
             <img
-              src="src\assets\tick-track-web.png"
+              src={web}
               alt=""
               className="w-[70vw] z-100"
             />
@@ -57,7 +59,8 @@ const LandingPage = () => {
     
       </div>
 
-      <footer className=" w-screen lg:h-130   h-160 relative bg-[url('src/assets/tick-track.jpg')] bg-cover bg-center text-neutral-300">
+      <footer className=" w-screen lg:h-130   h-160 relative  bg-cover bg-center text-neutral-300"
+      style={{ backgroundImage: `url(${back})` }}>
         <div className="w-full lg:h-130 h-160 bg-black/50 backdrop-blur-xl relative">
           <div className="grid lg:grid-cols-3 grid-cols-1 w-screen lg:h-60">
             <div className="border-neutral-700 border  bg-white/10 backdrop-blur-2xl p-4 relative ">
