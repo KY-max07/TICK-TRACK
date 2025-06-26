@@ -65,7 +65,7 @@ const LandingPage = () => {
           <div className="grid lg:grid-cols-3 grid-cols-1 w-screen lg:h-60">
             <div className="border-neutral-700 border  bg-white/10 backdrop-blur-2xl p-4 relative ">
               <img
-                src="src\assets\tt.svg"
+                src={tt}
                 alt="Tick-Track"
                 className="md:h-7 h-4 z-100"
               />
