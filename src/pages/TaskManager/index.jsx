@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 import { FaFire } from "react-icons/fa";
 import { supabase } from "../../supabase-client";
 import { useUser, SignOutButton } from "@clerk/clerk-react";
+import tt from '../../assets/tt.svg';
 
 export default function Taskmanager() {
   return (
     <div className=" min-h-screen w-full bg-[#000000] bg-[radial-gradient(#ffffff18_1px,#000002_1px)] bg-[size:12px_12px] text-neutral-50 relative">
       <nav className="p-4 px-10 flex items-center justify-between">
         <img
-          src="src\assets\tt.svg"
+          src={tt}
           alt="Tick-Track"
           className="md:h-7 h-4 cursor-pointer"
         />
