@@ -1,6 +1,6 @@
 # 🕒 TICK-TRACK – Task Manager
 <p align="center">
-  <img src="src/assests/tt.svg" width="700" alt="Tick-Track UI Screenshot 1"/>
+  <img src="screenshots/tt.svg" width="700" alt="Tick-Track UI Screenshot 1"/>
 </p>
 
 **TICK-TRACK** is a sleek and efficient task management web app that lets users organize their tasks using a drag-and-drop interface. Tasks are categorized into **Backlog**, **To Do**, **In Progress**, and **Completed** columns, helping streamline workflow visually.
@@ -13,7 +13,7 @@
 ### 🖼️ UI Preview
 
 <p align="center">
-  <img src="src/assests/tick-track-web.png" width="700" alt="Tick-Track UI Screenshot 1"/>
+  <img src="screenshots/tick-track-web.png" width="700" alt="Tick-Track UI Screenshot 1"/>
 </p>
 
 
